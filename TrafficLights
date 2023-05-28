@@ -1,0 +1,14 @@
+func update_light(_ current: String) -> String {
+  var output = ""
+  switch current {
+    case "green":
+      output = "yellow"
+    case "yellow":
+      output = "red"
+    case "red":
+      output = "green"
+    default:
+      break
+  }
+  return output
+}
