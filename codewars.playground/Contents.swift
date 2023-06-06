@@ -14,12 +14,4 @@ func maxMultiple(_ d: Int, _ b: Int) -> Int {
 
 maxMultiple(2, 7)
 
-var d = 37
-var b = 200
-var arr = [Int]()
-for i in (1...b) {
-    if (i % d == 0) && (i <= b) && (i > 0) {
-        arr.append(i)
-    }
-}
-print(arr.max())
+
